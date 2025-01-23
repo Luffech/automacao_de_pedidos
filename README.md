@@ -1,36 +1,53 @@
-#Bot de Pedidos para Whatsapp
-Este projeto é um bot de pedidos automatizado para WhatsApp, desenvolvido utilizando Node.js e whatsapp-web.js. O bot permite que os clientes façam pedidos de pizza de forma interativa e eficiente.
+# Bot de Pedidos para WhatsApp  
 
-Funcionalidades
-Geração de QR Code: Autenticação fácil no WhatsApp Web.
-Gestão de Pedidos: Gerencia o estado dos pedidos, permitindo interações dinâmicas.
-Interação em Tempo Real: Responde a mensagens e guia o cliente através do processo de pedido.
-Confirmação e Correção de Pedidos: Permite que os clientes confirmem ou corrijam detalhes do pedido.
-Escalabilidade: Configurado para lidar com múltiplos pedidos simultâneos.
-Tecnologias Utilizadas
-Node.js: Plataforma de desenvolvimento.
-whatsapp-web.js: Integração com o WhatsApp Web.
-qrcode-terminal: Geração de QR Codes no terminal.
-Instalação
-Clone o repositório:
+Este projeto é um bot automatizado para pedidos via WhatsApp, desenvolvido com **Node.js** e **whatsapp-web.js**. Ele permite que clientes façam pedidos de pizza de forma interativa e eficiente.  
 
-git clone https://github.com/seu-usuario/whatsapp-order-bot.git
-cd whatsapp-order-bot
+---
+
+## **Funcionalidades**  
+- **Geração de QR Code**: Autenticação rápida e fácil no WhatsApp Web.  
+- **Gestão de Pedidos**: Controle dinâmico do estado dos pedidos.  
+- **Interação em Tempo Real**: Responde automaticamente às mensagens e guia o cliente no processo de pedido.  
+- **Confirmação e Correção de Pedidos**: Permite que o cliente confirme ou corrija detalhes do pedido antes de finalizar.  
+- **Escalabilidade**: Suporte para múltiplos pedidos simultaneamente.  
+
+---
+
+## **Tecnologias Utilizadas**  
+- **Node.js**: Plataforma de desenvolvimento.  
+- **whatsapp-web.js**: Biblioteca para integração com o WhatsApp Web.  
+- **qrcode-terminal**: Geração de QR Codes diretamente no terminal.  
+
+---
+
+## **Instalação**  
+
+1. **Clone o repositório:**  
+   ```bash  
+   git clone https://github.com/seu-usuario/whatsapp-order-bot.git  
+   cd whatsapp-order-bot  
 Instale as dependências:
 
-npm install whatsapp-web.js
-npm install qrcode-terminal
+bash
+Copiar
+npm install whatsapp-web.js  
+npm install qrcode-terminal  
 Inicie o bot:
 
-node bot.js
-Escaneie o QR Code gerado no terminal com o WhatsApp Web.
+bash
+Copiar
+node bot.js  
+Escaneie o QR Code gerado no terminal utilizando o WhatsApp Web.
 
 Uso
-Início da Conversa: O bot saúda o cliente e pergunta se ele gostaria de fazer um pedido.
-Escolha de Tamanho e Sabor: O cliente escolhe o tamanho e o sabor da pizza através de opções numéricas.
-Resumo do Pedido: O bot fornece um resumo do pedido e pergunta se o cliente deseja adicionar mais itens.
-Correção de Pedidos: Se necessário, o cliente pode corrigir o tamanho ou o sabor da pizza antes de finalizar o pedido.
-Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Início da Conversa:
+O bot cumprimenta o cliente e pergunta se ele deseja fazer um pedido.
 
-Espero que isso ajude! Se precisar de mais alguma coisa, estou à disposição.
+Escolha de Tamanho e Sabor:
+O cliente escolhe o tamanho e o sabor da pizza utilizando opções numéricas.
+
+Resumo do Pedido:
+O bot apresenta um resumo do pedido e pergunta se o cliente deseja adicionar mais itens.
+
+Correção de Pedidos:
+Caso necessário, o cliente pode corrigir os detalhes do pedido antes de finalizá-lo.
