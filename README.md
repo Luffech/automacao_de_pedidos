@@ -1,4 +1,4 @@
-Bot de Pedidos para Whatsapp
+#Bot de Pedidos para Whatsapp
 Este projeto é um bot de pedidos automatizado para WhatsApp, desenvolvido utilizando Node.js e whatsapp-web.js. O bot permite que os clientes façam pedidos de pizza de forma interativa e eficiente.
 
 Funcionalidades
